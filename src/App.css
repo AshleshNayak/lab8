@@ -1,0 +1,112 @@
+/* Reset some default browser styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4a90e2;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type='text'],
+input[type='date'] {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 200px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #357ab7;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+div {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 0 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+li span {
+  font-size: 1rem;
+  color: #555;
+}
+
+li button {
+  background-color: #f0ad4e;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #ec971f;
+}
+
+li button:focus {
+  outline: none;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+li.completed button {
+  background-color: #5bc0de;
+}
+
+li.completed button:hover {
+  background-color: #31b0d5;
+}
